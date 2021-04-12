@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 40%;
+}
+
+.upload-area {
+    background-color: darkgray;
+    border: 2px dashed #333;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upload-area-hover {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height:100%;
+}
