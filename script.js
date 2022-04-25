@@ -28,6 +28,7 @@ upload.addEventListener('drop', e => {
         let fileReader = new FileReader();
         
         //here we have a assyncronous function, that will return a file url
+        // Aqui estou sobrescrevendo o método 'onload' da classe FileReader para essa instancia, e colocando o que quero q aconteça para quando esse metodo seja chamado
         fileReader.onload = () => {
             let fileURL = fileReader.result;
             upload.innerHTML = `<img src="${fileURL}">`;
